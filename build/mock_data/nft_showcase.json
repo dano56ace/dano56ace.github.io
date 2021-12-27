@@ -1,0 +1,32 @@
+[
+    {
+        "previewImg": "./img/posters/1.jpg",
+        "title": "Control",
+        "nftLink": "/ItemDetail",
+        "username": "Fred Ryan"
+    },
+    {
+        "previewImg": "./img/posters/2.jpg",
+        "title": "Jedi Fallen Order",
+        "nftLink": "#",
+        "username": "Nicholas Daniels"
+    },
+    {
+        "previewImg": "./img/posters/3.jpg",
+        "title": "Halo 4",
+        "nftLink": "/ItemDetail",
+        "username": "Nicholas Daniels"
+    },
+    {
+        "previewImg": "./img/posters/4.jpg",
+        "title": "Uncharted 2",
+        "nftLink": "/ItemDetail",
+        "username": "Lori Hart"
+    },
+    {
+        "previewImg": "./img/posters/5.jpg",
+        "title": "Assassins Creed Valhalla",
+        "nftLink": "/ItemDetail",
+        "username": "Fred Ryan"
+    }
+]
