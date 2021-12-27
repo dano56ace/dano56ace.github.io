@@ -1,5 +1,4 @@
 import React from 'react';
-import emailjs from 'emailjs-com';
 import Footer from '../components/footer';
 import { createGlobalStyle } from 'styled-components';
 import { Link } from '@reach/router';
@@ -41,26 +40,7 @@ const GlobalStyles = createGlobalStyle`
 
 `;
 
-const contact= function() {
-
-  function sendEmail(e) {
-
-    const success = document.getElementById("success");
-    const button = document.getElementById("buttonsent");
-    const failed = document.getElementById("failed");
-    e.preventDefault();
-
-    emailjs.sendForm('gmail', 'template_csfdEZiA', e.target, 'user_zu7p2b3lDibMCDutH5hif')
-      .then((result) => {
-          console.log(result.text);
-          success.classList.add('show');
-          button.classList.add('show');
-          failed.classList.remove('show');
-      }, (error) => {
-          console.log(error.text);
-          failed.classList.add('show');
-      });
-  }
+const roadmap= function() {
 
   return (
   <div>
@@ -124,4 +104,4 @@ const contact= function() {
     </div>
   );
 }
-export default contact;
+export default roadmap;
