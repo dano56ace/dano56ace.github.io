@@ -1,6 +1,6 @@
 # The Shuffle Editor (https://shuffle.dev)
 
-1. Getting Started
+1. Getting Started!
 
 Project's source files are placed in ./src/ directory. 
     * ./src/theme/ - Settings used to build Material-UI theme.
